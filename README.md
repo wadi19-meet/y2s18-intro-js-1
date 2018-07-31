@@ -56,7 +56,7 @@
 ### 1.5 &ensp; Functions (`./functions`)
 0. Make sure you are in the **`~/Desktop/intro-js-1`** directory. Open `functions/functions.html` in Sublime Text (or any other text editor). Write all of your code in between the `<script></script>` tags.
 1. A **palindrome** is a phrase that, when only letters are kept, reads the same both forwards and backwards. For example, "Madam, I'm Adam" is a palindrome, because when only letters are kept, "madamimadam" is the same as its reverse.
-2. Write a function called `isPalindrome(<word>)` that returns `true` or `false`, depending on whether or not the argument is a palindrome, using our provided `isLetter(<char>)` function. A `for` loop will be helpful too.
+2. Write a function called `isPalindrome(<word>)` that returns `true` or `false`, depending on whether or not the argument is a palindrome, using our provided `isLetter(<char>)` function. A `for` loop and learning to copy an array will be helpful too.
 3. Prompt the user to input a phrase, and then output to the screen a message whether or not their input is a palindrome.
 4. Raise your hand and get checked off by a TA or instructor. Nice work!
 
