@@ -14,6 +14,21 @@ function isLetter(char) {
     char = char.toLowerCase();
     return "abcdefghijklmnopqrstuvwxyz".indexOf(char) >= 0;
 }
+function isPalindrome () {
+	var thing = prompt("write a fucken sentence");
+	thing.split(" ");
+
+	var thingr = thing.revese();
+
+	if (thingr [0,-1] == thing [0,1]){
+		alert("wow its fantastic");
+	}
+	else{
+		alert("fuck");
+	}
+}
+
+isPalindrome();
 
 // Write your isPalindrome function here!
 

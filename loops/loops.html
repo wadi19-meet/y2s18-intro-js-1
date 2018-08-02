@@ -10,14 +10,29 @@
 
     <script>
 /* STARTING CODE */
-function getRandomInt(min, max) {
+function randomInt(min, max) {
     return Math.floor(Math.random() * Math.floor(max - min)) + min;
 }
 
-var randomInt = getRandomInt(1, 100);
-/* END STARTING CODE */
 
-// your code goes under here
+/* END STARTING CODE */
+var guess1 = prompt("try to guess a number")
+	var guess = randomInt(0,100)
+    
+
+    while(guess1!== guess){
+    	if (guess1 > guess){
+    	document.write("you guessed higher   ||   ")
+    	guess1 = prompt("try to guess a number    ||   ")
+    
+    }
+    
+    else if (guess1 < guess) {
+    	document.write("you guessed lower ")
+     guess1 = prompt("try to guess a number")
+    }	
+    }
+   document.write("you guessed correctly")
 
     </script>
 </body>
